@@ -1,0 +1,57 @@
+/**
+    * @name WIDE MATTO
+    * @version 1.0
+    * @description MATTO IS HOT
+    * @author BIG SMOKE
+    *
+    * @source https://www.youtube.com/user/DarkviperGameChannel
+    * @invite DarkViperAU
+**/
+
+/*
+ BEANS
+*/
+
+@import url("https://raw.githack.com/Kayno0o/vibrant-glass-theme/main/glass_remote.theme.css");
+
+
+
+/* DEFINE MAIN VARIABLES */
+
+.theme-dark {
+    /*
+    name of the Discord window (top left)
+    default : "MATTO" */
+    --window-name: "MATTO";
+    /*
+    color of the Discord window name
+    default : rgb(255, 255, 255) */
+    --window-name-color: rgb(255, 255, 255);
+    /*
+    opacity, but lighter
+    default : 0.4 */
+    --light-opacity: 0.4;
+    /*
+    opacity used everywhere
+    default : 0.7 */
+    --opacity: 0.7;
+    /*
+    opacity, but darker
+    default : 0.69 */
+    --dark-opacity: 0.69;
+    /*
+    it's just the Discord background URL, it has to be a direct link (ending with .png, .jpg, .gif)
+    default : url('https://cdn.discordapp.com/attachments/860545015145955349/877333272655450152/EuCFtLHVIAE8unu.png') */
+    --background-url: url('https://cdn.discordapp.com/attachments/860545015145955349/877333272655450152/EuCFtLHVIAE8unu.png');
+    /*
+    background color used for opacity
+    default : 0, 0, 0 */
+    --background-color: 0, 0, 0;
+}
+
+/* BACKGROUND */
+
+.app-2rEoOp>.bg-h5JY_x {
+    background: var(--background-url) !important;
+    background-size: cover !important;
+}
